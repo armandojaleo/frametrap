@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Lato&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya Sans', 'Lato', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    flex: auto;
+}
+
+.p-1 {
+    padding: 0.10em;
+}
+
+.b-1 {
+    border: 0.10em solid;
+}
+
+.b-red {
+    border-color: red;
+}
